@@ -14,7 +14,9 @@ module.exports = {
     //'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off'
 		'no-debugger': 'off',
 		//'vue/no-unused-components': process.env.NODE_ENV === 'production' ? 'error' : 'off'
-		'vue/no-unused-components': 'off'
+		'vue/no-unused-components': 'off',
+		//'vue/require-prop-type-constructor': process.env.NODE_ENV === 'production' ? 'error' : 'off'
+		'vue/require-prop-type-constructor': 'off'
   },
   parserOptions: {
     parser: '@typescript-eslint/parser'

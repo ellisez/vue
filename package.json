@@ -1,7 +1,7 @@
 {
   "name": "vue",
   "version": "1.0.0",
-	"description": "@vue/cli create blank project.",
+  "description": "@vue/cli create blank project.",
   "scripts": {
     "serve": "vue-cli-service serve --open",
     "build": "vue-cli-service build",
